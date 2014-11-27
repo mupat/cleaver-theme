@@ -1,5 +1,7 @@
 {{#slides}}
-  <section class="slide{{#hidden}} hidden{{/hidden}} {{#classList}} {{classList}}{{/classList}}" id="slide-{{id}}">
-    {{{content}}}
-  </section>
+  <div class="slide-wrapper">
+    <section class="slide{{#hidden}} hidden{{/hidden}} {{#classList}} {{classList}}{{/classList}}" id="slide-{{id}}">
+      {{{content}}}
+    </section>
+  </div>
 {{/slides}}
