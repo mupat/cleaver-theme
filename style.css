@@ -30,7 +30,7 @@ h3 {
 /*
   slides styling
  */
-body, html, .slide {
+body, html, .slide-wrapper, .slide {
   width: 100%;
   height: 100%;
 }
