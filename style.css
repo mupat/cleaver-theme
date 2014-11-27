@@ -89,7 +89,15 @@ body, html, .slide {
 }
 
 .slide:nth-child(even) {
-  background-color: #777;
+  background-color: #efefef;
+}
+
+.slide:nth-child(even) h3 {
+  background-color: #efefef;
+}
+
+.slide:nth-child(even) pre {
+  background-color: #fff;
 }
 
 .slide-content {
@@ -111,13 +119,13 @@ adjusted!
 */
 
 code, pre {
-  border: 1px solid #ddd;
+  border: 1px solid #aaa;
   border-radius: 3px;
   overflow: auto;
   padding: 6px 10px;
   font-family: 'Source Code Pro';
   font-weight: 300;
-  background-color: #eee;
+  background-color: #efefef;
   color: #160002;
 }
 
