@@ -3,28 +3,52 @@
  */
 @import url(http://fonts.googleapis.com/css?family=Lato:100,400,900);
 @import url(http://fonts.googleapis.com/css?family=Source+Code+Pro:300);
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 body, html, h1, h2, h3 {
   font-family: 'Lato', sans-serif;
   margin: 0;
   padding: 0;
-  font-weight: 400;  
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
 }
 
 h1 {
   font-weight: 400;
   font-size: 50px;
+  line-height: 60px;
   text-align: center;
 }
 
 h2 {
   font-size: 40px;
+  line-height: 50px;
   font-weight: 100;
   text-align: center;
 }
 
 h3 {
   font-size: 32px;
+  line-height: 42px;
   font-weight: 100;
+  border-bottom: 1px solid #eee;
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  left: 0;
+  padding: 10px 40px;
+  z-index: 10;
+}
+
+a {
+  text-decoration: none;
+  color: #66b5ff;
 }
 
 /*
@@ -78,7 +102,8 @@ pre > code {
 pre .comment,
 pre .template_comment,
 pre .diff .header,
-pre .javadoc {
+pre .javadoc,
+pre .bullet {
   color: #998;
   font-style: italic
 }
@@ -104,7 +129,8 @@ pre .ruby .constant {
 pre .string,
 pre .tag .value,
 pre .phpdoc,
-pre .tex .formula {
+pre .tex .formula,
+pre .code {
   color: #d14
 }
 
@@ -139,7 +165,8 @@ pre .django .tag .keyword {
 
 pre .attribute,
 pre .variable,
-pre .lisp .body {
+pre .lisp .body,
+pre .header {
   color: #008080
 }
 
