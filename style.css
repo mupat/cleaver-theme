@@ -62,7 +62,7 @@ a:hover {
   color: #44a4dd;
 }
 
-p {
+p, ol, ul {
   font-size: 28px;
   line-height: 38px;
 }
