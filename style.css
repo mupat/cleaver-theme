@@ -9,7 +9,7 @@
   box-sizing: border-box;
 }
 
-body, html, h1, h2, h3, h4 {
+body, html, h1, h2, h3, h4, ol, ul {
   font-family: 'Lato', sans-serif;
   margin: 0;
   padding: 0;
@@ -65,8 +65,13 @@ a:hover {
 p {
   font-size: 28px;
   line-height: 38px;
-  text-align: center;
 }
+
+img {
+  margin: 0 auto;
+  display: block;
+}
+
 
 /*
   slides styling
