@@ -20,21 +20,21 @@ body, html, h1, h2, h3, h4, ol, ul {
 
 h1 {
   font-weight: 400;
-  font-size: 50px;
-  line-height: 60px;
+  font-size: 60px;
+  line-height: 70px;
   text-align: center;
 }
 
 h2 {
-  font-size: 40px;
-  line-height: 50px;
+  font-size: 50px;
+  line-height: 60px;
   font-weight: 100;
   text-align: center;
 }
 
 h3 {
-  font-size: 34px;
-  line-height: 44px;
+  font-size: 44px;
+  line-height: 54px;
   font-weight: 100;
   border-bottom: 1px solid #fff;
   background-color: #efefef;
@@ -47,8 +47,8 @@ h3 {
 }
 
 h4 {
-  font-size: 30px;
-  line-height: 40px;
+  font-size: 38px;
+  line-height: 48px;
   font-weight: 400;
   margin-bottom: 10px;
 }
@@ -64,8 +64,12 @@ a:hover {
 }
 
 p, ol, ul {
-  font-size: 28px;
-  line-height: 38px;
+  font-size: 34px;
+  line-height: 44px;
+}
+
+.center {
+  text-align: center;
 }
 
 img {
