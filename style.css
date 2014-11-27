@@ -36,8 +36,8 @@ h3 {
   font-size: 34px;
   line-height: 44px;
   font-weight: 100;
-  border-bottom: 1px solid #eee;
-  background-color: #fff;
+  border-bottom: 1px solid #fff;
+  background-color: #efefef;
   position: absolute;
   top: 0;
   width: 100%;
@@ -85,7 +85,7 @@ body, html, .slide {
 }
 
 .slide {
-  background-color: #fff;
+  background-color: #efefef;
   display: flex;
   align-items: center;
   padding: 0 40px;
@@ -94,24 +94,15 @@ body, html, .slide {
   position: absolute;
   top: 0;
   left: 0;
-  -webkit-transition: opacity 0.3s ease, visibility 0.3 ease;  
-  -moz-transition:    opacity 0.3s ease, visibility 0.3 ease;
-  -ms-transition:     opacity 0.3s ease, visibility 0.3 ease; 
-  -o-transition:      opacity 0.3s ease, visibility 0.3 ease;
-  transition:         opacity 0.3s ease, visibility 0.3 ease;
+  -webkit-transition: opacity 0.3s ease, visibility 0.3s ease;  
+  -moz-transition:    opacity 0.3s ease, visibility 0.3s ease;
+  -ms-transition:     opacity 0.3s ease, visibility 0.3s ease; 
+  -o-transition:      opacity 0.3s ease, visibility 0.3s ease;
+  transition:         opacity 0.3s ease, visibility 0.3s ease;
 }
 
 .slide:nth-child(even) {
   background-color: #efefef;
-}
-
-.slide:nth-child(even) h3 {
-  background-color: #efefef;
-  border-bottom-color: #fff;
-}
-
-.slide:nth-child(even) pre {
-  background-color: #fff;
 }
 
 .slide-content {
@@ -140,7 +131,7 @@ code, pre {
   padding: 6px 10px;
   font-family: 'Source Code Pro';
   font-weight: 300;
-  background-color: #efefef;
+  background-color: #fff;
   color: #160002;
 }
 
