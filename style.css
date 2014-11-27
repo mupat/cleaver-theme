@@ -56,6 +56,7 @@ h4 {
 a {
   text-decoration: none;
   color: #66b5ff;
+  font-weight: 400;
 }
 
 a:hover {
