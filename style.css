@@ -89,6 +89,16 @@ body, html, .slide {
   display: flex;
   align-items: center;
   padding: 0 40px;
+  opacity: 1;
+  visibility: visible;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transition: opacity 0.3s ease, visibility 0.3 ease;  
+  -moz-transition:    opacity 0.3s ease, visibility 0.3 ease;
+  -ms-transition:     opacity 0.3s ease, visibility 0.3 ease; 
+  -o-transition:      opacity 0.3s ease, visibility 0.3 ease;
+  transition:         opacity 0.3s ease, visibility 0.3 ease;
 }
 
 .slide:nth-child(even) {
@@ -109,7 +119,8 @@ body, html, .slide {
 }
 
 .slide.hidden {
-  display: none;
+  opacity: 0;
+  visibility: hidden;
 }
 
 ul, ol {
