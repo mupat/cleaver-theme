@@ -13,7 +13,7 @@ body, html, h1, h2, h3, h4, ol, ul {
   font-family: 'Lato', sans-serif;
   margin: 0;
   padding: 0;
-  font-weight: 400;
+  font-weight: 100;
   font-size: 18px;
   line-height: 23px;
 }
@@ -72,6 +72,9 @@ img {
   display: block;
 }
 
+strong {
+  font-weight: 400;
+}
 
 /*
   slides styling
@@ -94,6 +97,7 @@ body, html, .slide {
 
 .slide:nth-child(even) h3 {
   background-color: #efefef;
+  border-bottom-color: #fff;
 }
 
 .slide:nth-child(even) pre {
