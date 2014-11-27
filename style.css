@@ -44,6 +44,10 @@ body, html, .slide {
   flex-basis: 100%;
 }
 
+.slide.hidden {
+  display: none;
+}
+
 /*
 github.com style (c) Vasily Polovnyov <vast@whiteants.net>
 
