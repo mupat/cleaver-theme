@@ -124,6 +124,20 @@ ul, ol {
   margin-bottom: 10px;
 }
 
+.progress-bar {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 5px;
+  z-index: 100;
+  background-color: #8FD129;
+  -webkit-transition: width 0.3s ease;  
+  -moz-transition:    width 0.3s ease;
+  -ms-transition:     width 0.3s ease; 
+  -o-transition:      width 0.3s ease;
+  transition:         width 0.3s ease;
+}
+
 /*
 github.com style (c) Vasily Polovnyov <vast@whiteants.net>
 
