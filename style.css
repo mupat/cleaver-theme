@@ -247,6 +247,7 @@ pre .class {
 
 pre .symbol,
 pre .ruby .symbol .string,
+pre .lang-ruby,
 pre .lisp .keyword,
 pre .tex .special,
 pre .prompt {
